@@ -1,4 +1,5 @@
 # CustomCapesV1 MAY BE TRIGGERED MY YOUR WINDOWS FIREWALL JUST CLICK MORE INFO THEN ALLOW THIS IS COMPLETLEY SAFE
+# Remeber to run exe as administrator
 Use custom optifine capes in Minecraft Made By iTrojang 
 # How Do i Use This?
 Custom Capes is made easy for the user to know what to do i will just explain here in case ur dumb utterly stupid
