@@ -23,7 +23,7 @@ This is because the script modifies a file that needs admin rights to open which
 2. If you use dont use optifine minecraft , this program only works if you use optifine.
 
 # If it doesnt work where can i report this?
-Dm me on discord iTrojang#7855 or reply to the forum post
+Dm me on discord iTrojang#7855 or reply to the forum post https://hypixel.net/threads/customcapes-get-any-cape-you-want.4937599/#post-35567107
 
 
 
