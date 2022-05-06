@@ -4,7 +4,6 @@ import os
 from flask import send_file
 from tkinter import filedialog
 from tkinter import *
-import logging
 
 root = Tk()
 root.geometry('900x500')
@@ -18,17 +17,11 @@ entry.grid(row=0,column=1)
 
 
 app = Flask(__name__)
-log = logging.getLogger('werkzeug')
-log.disabled = True
 
 @app.route("/capes/<username>.png")
 def cape(username):
 	if os.path.isfile(f"capes/{username}.png"):
 		return send_file(f"capes/{username}.png", mimetype='image/gif')
-
-	# To remove capes for everyone else, comment out the next two lines
-	#else:
-	#	return send_file("capes/veteran.png", mimetype='image/gif')
 	return('200')
 
 def opendir():
