@@ -47,6 +47,8 @@ hosts_path = window_path if platform == 'win32' else linux_path
 
 def start_backend(): #wtf is this name lmao
     if str(dns_resolve('s.optifine.net')[0]) != '127.0.0.1': # Don't write multiple times
+        copy_cmd = f"{'copy' if platform == 'win32' else 'cp'} {hosts_path} {hosts_path}-{os.getpid()}.old"
+        os.system(copy_cmd)
         with open(hosts_path, "a") as f:
             f.write("127.0.0.1 s.optifine.net\n")  # Redirecting optifine cape server to localhost
     app.run(host='127.0.0.1',port=80)
